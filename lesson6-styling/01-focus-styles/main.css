@@ -11,6 +11,13 @@ a:focus {
   text-decoration: none;
 }
 
+button:focus,
+a:focus,
+.mdl-button.raised:focus
+ {
+  outline: 5px solid #d2e854;
+}
+
 .nav > li > a {
   padding: 0 16px;
   margin: 0 8px;
